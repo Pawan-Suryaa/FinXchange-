@@ -1,0 +1,154 @@
+/* style.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #62825D, #9EDF9C);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #2d3748; 
+}
+
+.container {
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #62825D; 
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.header .highlight {
+    color: #9EDF9C; 
+}
+
+.form-container {
+    padding: 20px;
+}
+
+.toggle-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.toggle-buttons button {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background: #C2FFC7; 
+    cursor: pointer;
+    color: #2d3748;
+    transition: 0.3s;
+}
+
+.toggle-buttons button.active {
+    background: #62825D; 
+    color: white;
+    font-weight: 500;
+}
+
+.form {
+    display: none;
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2d3748;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #f8f9fa; 
+}
+
+.options {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.forgot-password {
+    font-size: 12px;
+    color: #9EDF9C; 
+    text-decoration: none;
+}
+
+.primary-btn {
+    width: 100%;
+    background-color: #62825D; /* Theme's primary button color */
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.primary-btn:hover {
+    background-color: #9EDF9C; /* Light green hover effect */
+}
+
+.or {
+    text-align: center;
+    margin: 15px 0;
+    color: #999;
+    font-size: 14px;
+}
+
+.secondary-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    background: white;
+    color: #2d3748;
+    transition: 0.3s;
+}
+
+.secondary-btn.google {
+    color: #4285f4; 
+}
+
+.secondary-btn.apple {
+    color: #333; 
+}
+
+.secondary-btn:hover {
+    background: #C2FFC7; 
+}
